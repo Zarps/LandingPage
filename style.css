@@ -37,6 +37,11 @@ body {
     font-size: 18px;
 }
 
+.links:hover {
+    text-decoration: underline;
+    color: #ECD6C4;
+}
+
 .conteudo {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7
@@ -88,8 +93,8 @@ body {
 
 .conteudo-principal-imagem {
     height: 430px;
-    -webkit-box-shadow: inset -8px -10px 12px -4px rgba(236, 214, 196, 0.53);
-    box-shadow: inset -8px -10px 12px -4px rgba(236, 214, 196, 0.53);
+    -webkit-box-shadow: inset -8px -10px 12px -4px rgba(155, 135, 113, 0.53);
+    box-shadow: inset -8px -10px 12px -4px rgba(158, 140, 125, 0.53);
     border-radius: 100px;
 }
 
@@ -128,4 +133,15 @@ body {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+.copy {
+    display: flex;
+    padding-top: 24px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ECD6C4;
 }
